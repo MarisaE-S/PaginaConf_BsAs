@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../CSS/nuevoConfig.css">
+    <title>Conf Bs As</title>
+</head>
+
+<body>
+
+
+    <div class="container-fluid sticky-top bg-dark">
+        <!-- Menú de navegación -->
+
+        <nav class="navbar navbar-expand-lg navbar-togglable-sm navbar-dark bg-dark " style="font-size: 1rem;">
+            <div class="container header">
+                <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--Logo codo a codo-->
+                <a href="#" class="navbar-brand">
+                    <img src="../imagenes/codoacodo.png" alt="logo codo a codo" style=" width: 5rem"
+                        class="d-inline-block ">Conf Bs As
+                </a>
+
+                <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                    <!--Inicio menu de navegación-->
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link nav-item active" href="#conferencia">La conferencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#seccion_oradores">Los oradores</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#seccion_lugar">El lugar y la fecha</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#orador">Conviértete en orador</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link text-success" id="tickets">Comprar tickets</a>
+                        </li>
+                    </ul>
+                    <!--Fin menú-->
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--inicio carrusel     -->
+    <div class="container-fluid-lg mb-4" style="height: 650px;">
+
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- The slideshow -->
+            <div class="carousel-inner" id="conferencia">
+                <div class="carousel-item active">
+                    <img src="../imagenes/ba1.jpg" alt="BS AS" width="100%"   class="img-fluid central">
+
+                </div>
+
+                <div class="carousel-item" id="conferencia">
+                    <img src="../imagenes/ba2.jpg" alt="BS AS" width="100%" class="img-fluid central">
+
+                </div>
+
+                <div class="carousel-item" id="conferencia">
+                    <img src="../imagenes/ba3.jpg" alt="BS AS" width="100%" class="img-fluid central">
+                </div>
+
+            </div>
+            <!--Fin carousel-->
+        </div>
+
+    
+    <!--información-->
+    
+        <div class="carousel-caption  text-white " style="width:800px; font-size: 1rem;">
+            <div class="carousel-caption d-none d-md-block">
+                <h3>Conf Bs As</h3>
+                <p>Bs As, llega por primera vez a Argentina, un evento para compartir con
+                    nuestra comunidad el conocimiento y experiencia de los expertos que están
+                    creando el futuro de internet. Van a conocer a miembros del evento, a otros
+                    estudiantes
+                    de Codo a Codo y a los oradores de primer nivel que tenemos
+                    para ti.Te esperamos!
+                </p>
+                <button type="button" class="btn btn-outline-light text-white orador" style="font-size: 1rem;">Quiero
+                    ser
+                    orador</button>
+                <button type="button" class="btn btn-success " style="font-size: 1rem;">Comprar Tickets</button>
+            </div>
+        </div>
+  
+    </div>
+    
+    <!-- comienzo tarjetas-->
+    <main id="seccion_oradores">
+        <div class="container " >
+            
+                <div class="col-3 ml-auto mr-auto " >
+                    <h6 style="text-align: center;">CONOCÉ A LOS</h6>
+                    <h1 style="text-align: center;">ORADORES</h1>
+                </div>    
+            
+        
+            <div class="row col-12 ml-auto mt-4 mb-4 row-sm">
+                <div class="col mb-2">
+                    <div class="card h-100">
+                        <img src="../imagenes/steve.jpg" class="card-img-top" alt="foto de Steve Jobs">
+                        <div class="card-body">
+                            <button type="button" class="btn btn-warning btn-sm">Javascript</button>
+                            <button type="button" class="btn btn-primary btn-sm">React</button>
+                            <h5 class="card-title">Steve Jobs</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk
+                                of
+                                the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col mb-2">
+                    <div class="card h-100">
+                        <img src="../imagenes/bill.jpg" class="card-img-top" alt="foto de Bill Gates">
+                        <div class="card-body">
+                            <button type="button" class="btn btn-warning btn-sm">Javascript</button>
+                            <button type="button" class="btn btn-primary btn-sm">React</button>
+                            <h5 class="card-title">Bill Gates</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk
+                                of
+                                the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-2">
+                    <div class="card h-100">
+                        <img src="../imagenes/ada.jpeg" class="card-img-top" alt="foto de Ada Loverece">
+                        <div class="card-body">
+                            <button type="button" class="btn btn-secondary btn-sm">Negocios</button>
+                            <button type="button" class="btn btn-danger btn-sm">Startup</button>
+                            <h5 class="card-title">Ada Loverace</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk
+                                of
+                                the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid-lg mb-2">
+            <div class="card mb-3">
+                <div class="row no-gutters bg-dark">
+                    <div class="col-md-6">
+                        <img src="../imagenes/honolulu.jpg" class="card-img" alt="playa">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body info " id="seccion_lugar">
+                            <h5 class="card-title">Bs As-Octubre 2020</h5>
+                            <p class="card-text">Buenos Aires es la provincia y localidad más grande del estado de
+                                Argentina, en los Estados Unidos Honolulú
+                                es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de
+                                Honolulú se refiere al área urbana en
+                                la costa sureste de la isla de Oashu, la ciudad y el condado de Honoñulú han formado una
+                                ciudad-condado consolidada que cubre
+                                toda la ciudad (aproximadamente 600km<sup>2</sup> de superficie)</p>
+                            <button type="button" class="btn btn-outline-light text-white">Conocer más</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--seccion formulario de inscripción-->
+        <div class="titulos" id="orador">
+            <h6 style="text-align: center;">CONVIÉRTETE EN UN </h6>
+            <h2 style="text-align: center;">  ORADOR</h2>
+            <p style="text-align: center;">Anótate para dar una <ins>charla ignite</ins>. Cuéntanos de qué quieres hablar?</p>
+        </div>
+
+
+        <div class="container mb-2">
+
+            <form class="col-8 ml-auto mr-auto">
+                <div class="row mt-4">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Nombre">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Apellido">
+                    </div>
+                </div>
+                <div class="form-group mt-4">
+                    <textarea class="form-control" id="exampleFormControlTextarea1"
+                        rows="4">Sobre qué quieres hablar?</textarea>
+                </div>
+                <span>Recuerda incluir un título para tu charla</span>
+                <button type="button" class="btn btn-primary btn-sm btn-block mb-4 button">Enviar</button>
+            </form>
+
+        </div>
+        <footer class="pb-1 pt-2 " id="footer">
+            <div class="container pb-2 pt-2">
+                <div class="row " id="footer">
+                    <div class="col">Preguntas frecuentes</div>
+                    <div class="col">Contáctanos</div>
+                    <div class="col">Prensa</div>
+                    <div class="col">Conferencias</div>
+                    <div class="col">Términos y condiciones</div>
+                    <div class="col">Privacidad</div>
+                    <div class="col">Estudiantes</div>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
